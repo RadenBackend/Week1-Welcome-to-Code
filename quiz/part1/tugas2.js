@@ -2,51 +2,51 @@ let tanggal = 12; // Variabel Tanggal
 let bulan = "februari"; // Variabel Bulan
 let tahun = 2001; // Variabel Tahun
 
-let namaBulan;
+let Bulan;
 
 // code switch case dibawah
 switch (bulan) { 
     case "Januari":
-        namaBulan = "Januari";
+        bulan = "Januari";
         break;
     case "Februari":
-        namaBulan = "Februari";
+        bulan = "Februari";
         break;    
     case "Maret":
-        namaBulan = "Maret";
+        Bulan = "Maret";
         break;
     case "April":
-        namaBulan = "April";
+        bulan = "April";
         break;
     case "Mei":
-        namaBulan = "Mei";
+        bulan = "Mei";
         break;
     case "Juni":
-        namaBulan = "Juni";
+        bulan = "Juni";
         break;
     case "Juli":
-        namaBulan = "Juli";
+        bulan = "Juli";
         break;
     case "Agustus":
-        namaBulan = "Agustus";
+        bulan = "Agustus";
         break;
     case "September":
-        namaBulan = "September";
+        bulan = "September";
         break;    
     case "Oktober":
-        namaBulan = "Oktober";
+        bulan = "Oktober";
         break;
     case "November":
-        namaBulan = "November";
+        bulan = "November";
         break;
     case "Desember":
-        namaBulan = "Desember";
+        bulan = "Desember";
         break;
         default:
-            namaBulan = "Bulan tidak ada"; 
+            Bulan = "Bulan tidak ada"; 
             //jika variabel tersebut tidak sama like februari2025
     }
     
-    console.log(`${tanggal} ${namaBulan} ${tahun}`);
+    console.log(`${tanggal} ${bulan} ${tahun}`);
     //buat outputnya ntar 
    //node tugas2.js
